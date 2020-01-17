@@ -1,0 +1,48 @@
+*{iklkml
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+.div-nav{
+    margin-top: 55px;
+}
+/* 
+body {
+    overflow-x: hidden;
+} */
+a{
+    font-size: 40px;;
+    color: #32CD32;
+}
+.link{
+    font-size: 20px;
+    padding: 10px;
+}
+.p-amigão{
+    margin-left:30px;
+    display: flex;
+}
+.section__wappaper{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/dog.png);
+    background-size:cover;
+    position: relative;
+    z-index: 1; 
+}
+.section__wappaper::after{
+    content:"";
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    opacity: 0.42;
+    background-color: #00B77A;
+    z-index: 1;
+}
