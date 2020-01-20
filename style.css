@@ -1,22 +1,27 @@
+@import url('https://use.typekit.net/eqk2gym.css');
 *{
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbane-Rounded';
+    font-weight: 600;
 }
+
 header{
-    width: 80%;
+    height: 50px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    margin: 10px 0 0 0;
+    /* justify-content: space-between; */
+    /* margin: 10px 0 0 0; */
 }
-.div-nav{
-    margin-top: 55px;
+nav{
+    margin-top: 10px;
+    margin-left: 30rem;
 }
-/* 
-body {
-    overflow-x: hidden;
-} */
+
 a{
+    
     font-size: 40px;;
     color: #32CD32;
 }
@@ -35,12 +40,19 @@ a{
 
 @media(max-width:425px){
     .menuhamburguer{
+    
     display:block;
-
+}
+label{
+    color: green;
 }
 a{
     display:none;
 }
+}
+.h1__title{
+    padding: 5px;
+    font-size:30px;
 }
 
 .p-amigão{
@@ -107,7 +119,6 @@ a{
 .title{
     text-align: center;
     font-size:80px;
-    font: Demi Bold 75px/90px Urbane Rounded;
     position:absolute;
     color: #FFFFFF;
     z-index: 1;
@@ -134,7 +145,6 @@ a{
 .button1{
     background-color: #00CA88;
     color: #fff;
-    font-weight: bold;
     border: none;
     border-radius: 20px;
     font-size: 18px;
@@ -149,7 +159,6 @@ a{
 .button2{
     background-color: #fff;
     color: #00CA88;
-    font-weight: bold;
     position: absolute;
     border: none;
     left: 34rem;
@@ -184,7 +193,6 @@ a{
     font-size: 64px;
     color: #00CA88;
     margin-top: 25px;
-    font-weight: bold;
 }
 /* @media (max-width: 768px){
     .sobre-title {
@@ -214,7 +222,6 @@ a{
     padding: 9px;
     color: #fff;
     background-color: #00CA88;
-    font-weight: bold;
 }
 
 .img__sobre__dog {
@@ -250,16 +257,15 @@ a{
 }
 
 .block__Adote{
-    height: 100%;
+    height:45rem;
     margin: 100px 0 0 0;
     background-color:#00CA88;
 }
 .luna{
-    width: 174px;
-    height: 70px;
-    left: 153px;
+    width: 135px;
+    height: 54px;
     position: absolute;
-    left: 113px;
+    left: 5rem;
     /* display: none; */
     margin-top: 61px;
     /* display: flex;
@@ -278,6 +284,7 @@ a{
     position: absolute;
 }
 .imgdog__adotar{
+    width: 200px;
     height: 200px;
     display: block;
     position: relative;
@@ -287,12 +294,12 @@ a{
     z-index: 1;
 }
 .divcircle{
-    width: 100%;
+    margin-left: 6rem;
     display: flex;
-    justify-content:space-around ;
+    justify-content:space-between ;
 }
 .divcircle2{
-    width: 50vw;
+    width: -16rem;
     display: flex;
 }
 .imgdog__adotar:hover{
@@ -305,17 +312,27 @@ a{
     background-color: black;
 }
 .imgdog2{
+    position: relative;
+    width:200px;
     height: 200px;
+    left: -2rem;
 }
 .imgdog3{
+    position: relative;
+    width:200px;
     height: 200px;
+    left: -1rem;
 }
 .imgdog4{
+    position: relative;
+    width: 200px;
     height: 200px;
+    border-radius: 10px;
 }
 .divimgdog{
     width:fit-content;
     height: 200px;
+    /* background: none; */
     display: flex;
     justify-content: space-around;
     background-color:#FFFFFF;
@@ -323,6 +340,7 @@ a{
     border-radius: 10px;
 }
 .divdogs{
+    margin-top: 6rem;
     display: flex;
     justify-content: space-around;
 }
@@ -333,17 +351,127 @@ a{
 }
 
 .blocotexto{
-    width: 360px;
+    height: 30px;
     width: 265px;
-    margin-left: 20px;
+    margin-right: 2rem;
+    margin-top: 4rem;
     font-size: 11px;
 }
 .p__text{
+    width: 336px;
+    margin-top: 2rem;
+    font-size: 14px;
     color: white;
-    align-items: center;
 }
 .circle1{
-    width: 200px;
+    width: 100px;
+}
+.circle2{
+    width:270px;
+}
+.divbordar{
+    position: absolute;
+    width: 188px;
+    height: 194px;
+    left: 5rem;
+    border: solid 2px white;
+    /* background: none; */
+    margin-top: 19px;
+    /* top: -82rem; */
+    border-radius: 10px;
+}
+.divbordar2{
+    position: absolute;
+    width: 194px;
+    height: 194px;
+    left: 27rem;
+    border: solid 2px white;
+    /* background: none; */
+    margin-top: 19px;
+    /* top: -82rem; */
+    border-radius: 10px;
 }
 
+.divborda3{
+    position: absolute;
+    width: 188px;
+    height: 194px;
+    left: 47rem;
+    border: solid 2px white;
+    /* background: none; */
+    margin-top: 19px;
+    /* top: -82rem; */
+    border-radius: 10px;
 
+}
+.divbordar4{
+    position: absolute;
+    width: 194px;
+    height: 194px;
+    left: 66rem;
+    border: solid 2px white;
+    /* background: none; */
+    margin-top: 19px;
+    /* top: -82rem; */
+    border-radius: 10px;
+
+}
+.divbordas{
+    display: flex;
+    justify-content: space-around;
+}
+.divnomes{
+    margin-top: 2rem;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.p-nameDuque{
+    margin-left: 4rem;
+}
+.divIdades{
+    margin-top: 1rem;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+}
+.idduque{
+    margin-left: 5rem;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.secfooter{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.divamigaofooter{
+    
+}
+.divimgfooter{
+    margin: 10px;
+    width: 17rem;
+    text-align: left;
+    margin-left:17rem;
+    margin-bottom: 3rem;
+    /* display: flex; */
+    justify-content: space-around;
+}
+.divtextfooter{
+    /* display: flex; */
+    flex-direction: column;
+}
+.p-footer{
+    margin: 20px;
+}
+.divcontat{
+    padding: 10px;
+    color: #00CA88
+
+}
+.divp{
+    margin-right: 20px;
+    color: #00CA88;
+}
